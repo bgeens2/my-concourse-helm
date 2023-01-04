@@ -2603,7 +2603,7 @@ persistence:
 
     ## Persistent Volume Storage Size.
     ##
-    size: 20Gi
+    size: 30Gi
 
     # You can define additional selector for pvc
     selector:
