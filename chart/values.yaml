@@ -2771,7 +2771,10 @@ secrets:
   ## List of `username:password` or `username:bcrypted_password` combinations for all your local concourse users.
   ## For details of expected format, see https://concourse-ci.org/local-auth.html
   ##
-  localUsers: "test:test,psilva38:$2a$04$/1DZ6Oh1JF6FQ7O0F4ijhOwihyweec21S4VnziMkz/2xQ/vRkuaF.,bgeens2:$2a$04$/1DZ6Oh1JF6FQ7O0F4ijhOwihyweec21S4VnziMkz/2xQ/vRkuaF."
+  localUsers: |
+    test:test
+    psilva38:$2a$04$/1DZ6Oh1JF6FQ7O0F4ijhOwihyweec21S4VnziMkz/2xQ/vRkuaF.
+    bgeens2:$2a$04$/1DZ6Oh1JF6FQ7O0F4ijhOwihyweec21S4VnziMkz/2xQ/vRkuaF.
 
   ## The TLS certificate and private key for the web component to be able to terminate
   ## TLS connections.
