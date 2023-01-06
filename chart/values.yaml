@@ -2773,8 +2773,8 @@ secrets:
   ##
   localUsers: |
     test:test
-    psilva38:$2a$04$/1DZ6Oh1JF6FQ7O0F4ijhOwihyweec21S4VnziMkz/2xQ/vRkuaF.
-    bgeens2:$2a$04$/1DZ6Oh1JF6FQ7O0F4ijhOwihyweec21S4VnziMkz/2xQ/vRkuaF.
+    psilva38:test
+    bgeens2:test
 
   ## The TLS certificate and private key for the web component to be able to terminate
   ## TLS connections.
